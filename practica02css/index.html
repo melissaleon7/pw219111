@@ -5,12 +5,14 @@
 		 <title>
 		 	Práctica 02 CSS3+HTML5
 		 </title>
+         <link rel="stylesheet" type="text/css" href="css/estilos.css">
 	 </head>
+
 	<body>
 	<HEADER> 
 		<img src="img/banner.png" alt="">
-		<img src="img/granthams.png" alt="">
-		<img src="img/paint.png" alt="">
+		<img src="img/granthams.png" alt="" id="granthams">
+		<img src="img/paint.png" alt="" id="paint">
 		<input type="search" placeholder="Search" >
 		<nav>
 		 <ul>
@@ -22,12 +24,17 @@
 		 </ul>
 		</nav>
     </HEADER>
-    <section>
-    	<article>
+
+    <section id="primerSeccion">
+    	<article id="section01art01">
     		<img src="img/slide.jpg" alt="">
     	</article>
-    	<article>
-    		We can offer...
+
+    	<article id="section01art02">
+    		<span class="colorrosa letragrande nito">
+            We can offer...
+            </span>
+
     		<ul>
     			<li>Highly Competitive Prices</li>
     			<li>Variable Data</li>
@@ -39,40 +46,59 @@
     			<li>Great Customer Service</li>
     		</ul>
     	</article>
-    	<img src="img/bg_offer.png" alt="">
+    	<img src="img/bg_offer.png" alt="" id="bgoffer">
     </section>
-    <section>
+
+    <section id="segundaSeccion">
 	  <article>
-		 01772 25207
+		<span class="colorrosa letramediana nito"> 
+        01772 25207
+        </span> 
 	  </article>
     </section>
-    <section>
+
+    <section id="terceraSeccion">
     	<article>
     		<img src="img/cerdito.png">
-    		Save this Spring
+    		<span class="colorrosa nito">
+            Save this Spring
+            </span>
     		<br>
     	    Fabulous discoutns on canva´s and roll up´s as well
     	    as many other offers. 
     	    <p>
+            <span class="colorrosa nito">
             Find out more...
+            </span>
     	</article>
+
     	<article>
     		<img src="img/hoja.png">
-    		ECO Friendly
+    		<span class="colorverde nito">
+            ECO Friendly 
+            </span>
     		<br>
     		ECO Friendly Materials used in our production process.
     		Recycled papers and paper from Sustainable Forests(incluiding FSC papers) are available across our range of printing Services.
     	</article>
+
     	<article>
     		<img src="img/new.png">
-    		Upload your file
+    		<span class="colorazul nito"> 
+                Upload your file
+            </span>
     		<br>
     		Making it easy to order your printing today. Our uploadfacility enables you to send your files directly to us. Use the notes section to inform us of your order, then sit back and wait for a member of our team to contact you.
     		<p>
-    		Upload Your File Now... 
+    		<span class="colorazul">
+                Upload Your File Now... 
+            </span>
     	</article>
+
     	<article>
-    	  Stay in touch
+    	  <span class="colorrosa letramediana">
+              Stay in touch
+          </span>
     	   <br>
     	  Join our mailing listr today <br>
     	  <input type="email". placeholder="Email goes here">
