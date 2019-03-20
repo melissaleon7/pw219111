@@ -1,0 +1,170 @@
+body{
+	font-size:16px;
+	margin: 0px auto;
+	max-width: 1024px;
+
+}
+footer{
+	margin-top: 30px;
+	list-style: none;
+}
+footer img{
+font-size: 14px;
+vertical-align: middle;
+}
+footer ul li{
+
+list-style: none;
+margin-left: -40px;
+}
+
+
+header ul{
+
+	margin-left: -40px;
+	margin-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: dashed gray 2px;
+	
+}
+header ul li{
+ display: inline-block;
+ margin-right: 15px;
+ font-weight: bold;
+ margin-bottom: -30px;
+ font-size: 23px;
+}
+#fbike{
+	width: 250px;
+	margin-top: 12px;
+}
+#mundo{
+
+width: 30px;
+float: right;
+margin-right: 5px;
+}
+#bandera{
+
+width: 30px;
+float: right;
+margin-right: 5px;
+}
+#logo_rojo{
+
+
+	width: 30px;
+	float: right;
+	margin-right: 5px;
+}
+
+#go_to_shop{
+
+	float: right;
+	width: 150px;
+	margin-bottom: -40px;
+	position: relative;
+	margin-top: 30px;
+}
+#buy{
+	width: 60px;
+	float: right;
+	position: relative;
+	margin-top: 90px;
+	padding-left: -60px;
+	margin-right: -5px;
+}
+#secc01{
+	vertical-align: top;
+	width: 100%;
+}
+#secc01 article{
+vertical-align: top;
+display: inline-block;
+
+}
+#secc01art01{
+	width: 55%;
+}
+#secc01art02{
+	width: 40%;
+	vertical-align: top;
+}
+#secc01art01art01{
+	width:550px;
+	font-size: 55px;
+	padding-bottom: 20px;
+	border-bottom:2px dashed gray;
+}
+#secc01art01art02{
+
+	padding-top: 30px;
+	font-size: 17px;
+}
+#video01{
+	width: 275px;
+}
+#video02{
+	width: 275px;
+}
+#bike{
+	width: 400px;
+	margin-top: -10px;
+
+}
+#years{
+	margin-top: -190px;
+	width: 150px;
+	margin-bottom: 25px;
+
+}
+#footerart01{
+margin-top: 30px;
+	width: 15%;
+
+}
+#footerart02{
+	margin-top: -135px;
+	width: 15%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 180px;
+}
+#footerart03{
+	margin-top: -135px;
+
+	width: 15%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+}
+#footerart04{
+	margin-top: -135px;
+
+	width: 15%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+}
+#footerart05{
+	margin-top: -135px;
+
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 40px;
+}
+#linea{
+	border-top: 2px dashed lightgray;
+	padding-top: 10px;
+	list-style: none;
+}
+.letraverde{
+	color:#73f33d;
+}
+.nito{
+	font-weight: bold;
+}
+.letragris{
+	color:gray;
+}
