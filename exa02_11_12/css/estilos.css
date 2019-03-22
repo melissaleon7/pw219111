@@ -1,0 +1,120 @@
+body{
+	max-width: 1024px;
+	min-width: 1024px;
+	margin: 0px auto;
+}
+@font-face{
+ font-family: Roboto;
+ src:url("Roboto/Roboto-Regular.ttf");
+
+ font-family: Anton;
+ src:url("Anton/Anton-Regular.ttf");
+
+  font-family: Karla;
+ src:url("Karla/Karla-Regular.ttf");
+
+   font-family: Heebo;
+ src:url("Heebo/Heebo-Regular.ttf");
+}
+header ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+header ul{
+	margin-top: 10px;
+	float: right;
+
+}
+header img{
+	vertical-align: middle;
+}
+#menu{
+	
+	margin-left: 5px;
+	margin-top: 10px;
+
+}
+#shop{
+	margin-left: 10px;
+}
+
+#northe{
+	
+	margin-left: 300px;
+	position: relative;
+}
+
+#secc01{
+	border-top: 3px solid black;
+}
+#secc01 article{
+	display: inline-block;
+	margin-top: 10px;
+    vertical-align: top;
+
+}
+#secc01art01{
+	width: 750px;
+	padding-right: 5px;
+}
+#secc01art01 img{
+
+width: 600px;
+margin-left: : -50px;
+margin-top: 10px;
+
+}
+#secc01art01 ul{
+	position: relative;
+	margin-left: 25px;
+}
+#secc01art01 ul li{
+	display: inline-block;
+	font-size: 14px;
+	margin-right: 10px;
+
+}
+#texto{
+width: 30%;
+}
+#indigo{
+	
+	position: relative;
+	font-size: 30px;
+	top:-200px;
+	margin-right: -25px;
+}
+#secc01art02{
+	width: 250px;
+}
+#secc01art02 {
+	border-left: 3px solid black;
+	font-size: 16px;
+	padding-left: 10px;
+}
+#secc01art02 img{
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 230px;
+
+}
+.roboto{
+	font-family: 'Roboto', sans-serif;
+}
+.anton{
+	font-family: 'Anton', sans-serif;
+}
+.nito{
+	font-weight: bold;
+}
+.karla{
+	font-family: 'Karla', sans-serif;
+}
+.heebo{
+	font-family: 'heebo', sans-serif;
+}
+.letragris{
+	color: gray;
+	font-size: 14px;
+}
