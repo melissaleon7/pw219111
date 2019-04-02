@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arrastrar y soltar</title>
+</head>
+<body>
+ 	<h2>Arrastrar y soltar</h2>
+    <div id="div1">
+    	<img src="img/logos.PNG" height="31" width="88" draggable="true" ondragstart="drag(event)" id="arrastre1">
+    	<img src="img/logos.PNG" height="31" width="88" draggable="true" ondragstart="drag(event)" id="arrastre2">
+    	<img src="img/logos.PNG" height="31" width="88" draggable="true" ondragstart="drag(event)" id="arrastre3">
+    	<img src="img/logos.PNG" height="31" width="88" draggable="true" ondragstart="drag(event)" id="arrastre4">
+
+
+
+    </div>
+    <div id="div2" ondragover="allowDrop(event)" ondrop="drop(event)">
+    	
+    </div>
+    <script> 
+    function drop(ev){
+    	ev.preventDefault();
+    	var data=ev.dataTransfer.getData("text");
+    	ev.target.appendChild(document.getElementById(data));
+    }
+    function allowDrop(ev){
+    	//Desactivamos que rechace el objeto
+       ev.preventDefault();
+    }
+    function drag(ev){
+    	ev.dataTransfer.setData("text",ev.target.id);
+    }
+
+    </script>
+</body>
+</html>
