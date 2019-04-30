@@ -1,11 +1,19 @@
 const express= require('express');
 const rutas = express.Router();
 
+const customerController=require('../controllers/customerController');
+
 
 //Get es lo que solicita el navegador del cliente 
-rutas.get("/",(req,res) => {
-	res .send
+//rutas.get("/",(req,res) => {
+//	res .send
 
-});
+//});
+
+rutas.get('/',customerController.list);
+//rutas.post('/add', customerController.save);
+//rutas.get('/delete/:id', customerController.delete);
+//rutas.get('/update/:id',customerController.edit);
+
 
 module.exports=rutas;
