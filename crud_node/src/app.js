@@ -12,8 +12,7 @@ app.set('port',process.env.PORT || 3000)
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname,'views'));
 
-//usamos las rutas
-app.use("/",indiceRutas);
+
 
 //Middleware
 app.use(morgan('de'));//dev= desarrollo
@@ -25,6 +24,9 @@ app.use(myConnection(mysql,{
      port: 3306,
      database : 'crudenodejsmysql'
 }, 'single'));
+
+//usamos las rutas
+app.use("/",indiceRutas);
 
 //Activar el servidor de escucha
 app.listen(app.get('port'),()=> {

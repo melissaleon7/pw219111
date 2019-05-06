@@ -1,4 +1,4 @@
-const controller={};
+const controller = {};
 
 controller.list=(req, res)=> {
 	req.getConnection((error,conn)=> {
@@ -7,7 +7,7 @@ controller.list=(req, res)=> {
 				res.json(err);
 			}
 			console.log(customers);
-		});
+		})
 
 	})
 }
