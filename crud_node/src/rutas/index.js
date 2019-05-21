@@ -6,14 +6,14 @@ const customerController=require('../controllers/customerController');
 
 //Get es lo que solicita el navegador del cliente 
 //rutas.get("/",(req,res) => {
-//	res .send
+	//res.send('Hola node');
 
 //});
 
 rutas.get('/',customerController.list);
-//rutas.post('/add', customerController.save);
-//rutas.get('/delete/:id', customerController.delete);
-//rutas.get('/update/:id',customerController.edit);
-
+rutas.post('/add', customerController.save);
+rutas.get('/delete/:id', customerController.delete);
+rutas.get('/update/:id',customerController.edit);
+rutas.post('/update/:id',customerController.update);
 
 module.exports=rutas;

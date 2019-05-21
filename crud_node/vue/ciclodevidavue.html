@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Ciclo de vida Vue.js</title>
+</head>
+<body>
+   <div id="app">
+   	<h1> {{ saludo }} </h1>
+   	<button @click="saludo= 'Saludo actualizado">Actualizar</button>
+	<button @click="destruir()">Destruir objeto Vue</button>
+
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+   <script src="ciclodevida.js"></script>
+</body>
+</html>
